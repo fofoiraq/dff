@@ -1,0 +1,26 @@
+{
+  "name": "test",
+  "version": "10.0.0",
+  "description": "Hi",
+  "main": "roleReact.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fofoiraq/dff.git"
+  },
+  "keywords": [
+    "f"
+  ],
+  "author": "fadi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fofoiraq/dff/issues"
+  },
+  "homepage": "https://github.com/fofoiraq/dff#readme"
+}
