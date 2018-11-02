@@ -1,7 +1,7 @@
 //Settings!
 const yourID = "201632163991519233"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "!*lol"
-let initialMessage = `نضام الرتب الجديد بل ايموجي @everyone`;
+let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
 const roles = ["Member", "Fortnite", "Pubg", "Minecraft", "Creative Destruction"];
 const reactions = ["👍", "507402295957258260", "507402153766420485", "07402325086961684", "507421652632600576"];
 const botToken = "NDg0OTYwNDI4NTAyMjg2MzM4.Dr1xKA.6tkRxYFbQV-lmLKNTICxe0gyEgE"; /*You'll have to set this yourself; read more
@@ -19,7 +19,7 @@ if (roles.length !== reactions.length) throw "Roles list and reactions list are 
 function generateMessages(){
     var messages = [];
     messages.push(initialMessage);
-    for (let role of roles) messages.push(` **${role}** المس علئ الايموجي للحصول علئ رتبة `); //DONT CHANGE THIS
+    for (let role of roles) messages.push(` React below to get the **"${role}"** role! `); //DONT CHANGE THIS
     return messages;
 }
 
