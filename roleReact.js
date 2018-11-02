@@ -2,7 +2,7 @@
 const yourID = "201632163991519233"; //Instructions on how to get this: https://redd.it/40zgse
 const setupCMD = "!*lol"
 let initialMessage = `نضام الرتب الجديد بل ايموجي @everyone`;
-const roles = ["~Member-", "-Fortnite-", "-Pubg-", "-Minecraft-", "-Creative Destruction-"];
+const roles = ["Member", "Fortnite", "Pubg", "Minecraft", "Creative Destruction"];
 const reactions = ["👍", "507402295957258260", "507402153766420485", "07402325086961684", "507421652632600576"];
 const botToken = "NDg0OTYwNDI4NTAyMjg2MzM4.Dr1xKA.6tkRxYFbQV-lmLKNTICxe0gyEgE"; /*You'll have to set this yourself; read more
                      here https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token*/
