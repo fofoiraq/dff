@@ -4,13 +4,12 @@ const setupCMD = "!*lol"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
 const roles = ["Member", "Fortnite", "Pubg", "Minecraft", "Creative Destruction"];
 const reactions = ["👍", "507402295957258260", "507402153766420485", "07402325086961684", "507421652632600576"];
-const botToken = "NDg0OTYwNDI4NTAyMjg2MzM4.Dr1xKA.6tkRxYFbQV-lmLKNTICxe0gyEgE"; /*You'll have to set this yourself; read more
-                     here https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token*/
+
 
 //Load up the bot...
 const Discord = require('discord.js');
 const bot = new Discord.Client();
-bot.login(botToken);
+bot.login(process.env.Fadi);
 
 //If there isn't a reaction for every role, scold the user!
 if (roles.length !== reactions.length) throw "Roles list and reactions list are not the same length!";
