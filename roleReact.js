@@ -3,7 +3,7 @@ const yourID = "201632163991519233"; //Instructions on how to get this: https://
 const setupCMD = "!*lol"
 let initialMessage = `**React to the messages below to receive the associated role. If you would like to remove the role, simply remove your reaction!**`;
 const roles = ["Member", "Fortnite", "Pubg", "Minecraft", "CD"];
-const reactions = ["👍", "508156814412611584", "508156989462020117", "08156857802555412", "508156826773094410"];
+const reactions = ["👍", "508156814412611584", "508156989462020117", "508156857802555412", "508156826773094410"];
 
 
 //Load up the bot...
