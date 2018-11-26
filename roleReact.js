@@ -65,4 +65,4 @@ bot.on('raw', event => {
  
     }   
 });
-bot.user.setActivity('M4G Shop', { type: 'PLAYING' });
+bot.user.setGame('M4G Shop')
