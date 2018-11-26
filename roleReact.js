@@ -10,7 +10,7 @@ const reactions = ["👍", "508156814412611584", "508156989462020117", "50815685
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 bot.login(process.env.Fadi);
-bot.user.setActivity('M4G Shop', { type: 'Playing' })
+bot.user.setActivity('M4G Shop', { type: 'WATCHING' })
   .then(presence => console.log(`Activity set to ${presence.game ? presence.game.name : 'none'}`))
   .catch(console.error);
 //If there isn't a reaction for every role, scold the user!
