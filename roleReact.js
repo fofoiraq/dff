@@ -70,4 +70,3 @@ bot.on('raw', event => {
  
     }   
 });
-bot.user.setGame('M4G Shop')
