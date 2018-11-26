@@ -12,8 +12,8 @@ const bot = new Discord.Client();
 
 
 bot.login(process.env.Fadi);
-client.on("ready", () => {
-    client.user.setActivity("M4G Shop", { type: "PLAYING"})
+bot.on("ready", () => {
+    bot.user.setActivity("M4G Shop", { type: "PLAYING"})
 })
   
 //If there isn't a reaction for every role, scold the user!
